@@ -1,6 +1,5 @@
 {
   "port": 5000,
-  "jwtSecret": "zarembailya",
   "mongoUri": "mongodb+srv://ilya:12345@cluster0.69d2c.azure.mongodb.net/app?retryWrites=true&w=majority",
   "baseUrl": "http://localhost:5000"
 }

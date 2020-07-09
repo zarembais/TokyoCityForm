@@ -40,22 +40,19 @@
 h4 {
   margin: 15px;
 }
-.input-field {
-  margin: 15px;
-  width: 100%;
-  
-}
 
-.input-in {
+h4, input, textarea, select { font-family:inherit; }
+
+.input-boot {
   background-color: #E8EEEF;
   padding: 12px 15px;
   border-radius: 5px;
-  
-  width: 92%;
+  border: 0px;
+  width: 94%;
 }
 
 input[type=text]:focus {
-  border: 1px solid #555;
+  border: 1px solid blue;
 }
 
 
@@ -69,5 +66,5 @@ input[type=text]:focus {
   border-radius: 50% 50% 50% 0%;
   text-align: center;
   color: #FFFFFF;
-  font: 24px Arial, sans-serif;
+  font: 20px Arial, sans-serif;
 }
